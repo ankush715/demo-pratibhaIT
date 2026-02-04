@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prathiba IT Solutions</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f4f7fc;
+    color:#222;
+}
+header{
+    background:#0a2a66;
+    color:#fff;
+    padding:20px;
+}
+header h1{margin:0;font-size:20px}
+.hero{
+    padding:25px;
+    background:#0a2a66;
+    color:#fff;
+}
+.hero h2{margin-top:0}
+.btn{
+    display:inline-block;
+    background:#1e88e5;
+    color:#fff;
+    padding:10px 16px;
+    border-radius:6px;
+    text-decoration:none;
+    margin-top:10px;
+    font-size:14px;
+}
+section{padding:25px}
+.section-title{
+    text-align:center;
+    margin-bottom:20px;
+}
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:15px;
+}
+.card{
+    background:#fff;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+    font-size:14px;
+}
+.process{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:10px;
+}
+footer{
+    background:#0a2a66;
+    color:#fff;
+    padding:20px;
+    text-align:center;
+    font-size:13px;
+}
+@media(min-width:768px){
+    .process{grid-template-columns:repeat(5,1fr)}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Prathiba IT Solutions</h1>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+    <h2>Empowering Businesses with Smart Digital Solutions</h2>
+    <p>Web Development, Mobile Apps, UI/UX Design & IT Services</p>
+    <a href="#services" class="btn">Get Free Consultation</a>
+</div>
+
+<!-- ABOUT -->
+<section>
+    <h3 class="section-title">About Prathiba IT Solutions</h3>
+    <div class="card">
+        We are a growing IT services company delivering innovative, reliable and scalable digital solutions for businesses, NGOs and startups.
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+    <h3 class="section-title">Our Services</h3>
+    <div class="cards">
+        <div class="card">Website Design & Development</div>
+        <div class="card">UI / UX Design</div>
+        <div class="card">Mobile App Development</div>
+        <div class="card">Software & Portal Development</div>
+        <div class="card">Digital Marketing & Branding</div>
+        <div class="card">IT Consulting & Support</div>
+    </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section>
+    <h3 class="section-title">Why Choose Us</h3>
+    <div class="cards">
+        <div class="card">Result-Driven Solutions</div>
+        <div class="card">Industry Expertise</div>
+        <div class="card">Transparent Communication</div>
+        <div class="card">Latest Technologies</div>
+        <div class="card">Scalable & Secure Systems</div>
+        <div class="card">Creative & Technical Team</div>
+    </div>
+</section>
+
+<!-- PROCESS -->
+<section>
+    <h3 class="section-title">Our Work Process</h3>
+    <div class="process">
+        <div class="card">1. Requirement Analysis</div>
+        <div class="card">2. Planning & Strategy</div>
+        <div class="card">3. Design & Development</div>
+        <div class="card">4. Testing & Review</div>
+        <div class="card">5. Launch & Support</div>
+    </div>
+</section>
+
+<footer>
+    © 2026 Prathiba IT Solutions • All Rights Reserved
+</footer>
+
+</body>
+</html>
